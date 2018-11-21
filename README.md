@@ -9,6 +9,9 @@ ENTRYPOINT ["java", "-jar", "spring-docker-01.jar"]`
 2. Using the Dockerfile create the Docker image.
 From the directory of Dockerfile - `docker build . -t spring-docker-01`
 
+3. Run the Docker image (spring-docker-01) created in #2.
+`docker run -p 8081:8081 --name spring-docker-01-app -d spring-docker-01`
+
 ## Useful Docker commands
 - `docker images`
 - `docker container ls`
