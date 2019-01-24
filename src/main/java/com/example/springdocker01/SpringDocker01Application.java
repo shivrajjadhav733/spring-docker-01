@@ -11,7 +11,7 @@ public class SpringDocker01Application {
 
 	@RequestMapping("/")
     public String home() {
-        return "Hello Docker World";
+        return "Hello Docker World from Azure DevOps";
     }
 	
 	public static void main(String[] args) {
