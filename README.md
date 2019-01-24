@@ -1,6 +1,6 @@
-[![Build Status](https://dev.azure.com/shivrajjadhav733/shivrajjadhav733/_apis/build/status/shivrajjadhav733.spring-docker-01?branchName=master)](https://dev.azure.com/shivrajjadhav733/shivrajjadhav733/_build/latest?definitionId=1&branchName=master)
-
 # Spring Boot on Docker
+
+[![Build Status](https://dev.azure.com/shivrajjadhav733/shivrajjadhav733/_apis/build/status/shivrajjadhav733.spring-docker-01?branchName=master)](https://dev.azure.com/shivrajjadhav733/shivrajjadhav733/_build/latest?definitionId=1&branchName=master)
 
 1. Create a `Dockerfile` for creating a docker image from the Spring Boot Application
 `FROM openjdk:8
